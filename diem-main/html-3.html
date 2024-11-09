@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tra cứu điểm - Mạng giáo dục Việt Nam-Vietnam Education Network</title>
+    <link rel="stylesheet" href="css-3.css"/>
+    <link rel="icon" type = "image/jpy" href="icon/yes.png"/>
+</head>
+<body>
+    <aside>
+    <div id="search" >
+        <input type="text" id="search-1"/> 
+        <div id="move">đang nhập</div>
+    </div>
+    </aside>
+
+    <a href="/*top:-65;*/"><img id="image-0" src="icon/soi.png" /></a>
+    <a href="https://vnedu.vn/"><img id="image-6" src="icon/logo-1.png"/></a>
+  
+    <section>
+        <div class="container" >
+           
+            <div class="left">
+            
+                <form id="color-blue">
+                    <h4 id="doi-mau">Tra cứu kết quả học tập </h4>
+                    <select id="gender" name="gender">
+                        <option value="">---chọn tỉnh----</option>
+                        <option value="An Giang">An Giang</option>
+                        <option value="Bà Rịa - Vũng Tàu">Bà Rịa - Vũng Tàu</option>
+                        <option value="Bắc Giang">Bắc Giang</option>
+                        <option value="Bắc Kạn">Bắc Kạn</option>
+                        <option value="Bạc Liêu">Bạc Liêu</option>
+                        <option value="Bắc Ninh">Bắc Ninh</option>
+                        <option value="Bến Tre">Bến Tre</option>
+                        <option value="Bình Định">Bình Định</option>
+                        <option value="Bình Dương">Bình Dương</option>
+                        <option value="Bình Phước">Bình Phước</option>
+                        <option value="Bình Thuận">Bình Thuận</option>
+                        <option value="Cà Mau">Cà Mau</option>
+                        <option value="Cần Thơ">Cần Thơ</option>
+                        <option value="Cao Bằng">Cao Bằng</option>
+                        <option value="Đà Nẵng">Đà Nẵng</option>
+                        <option value="Đắk Lắk">Đắk Lắk</option>
+                        <option value="Đắk Nông">Đắk Nông</option>
+                        <option value="Điện Biên">Điện Biên</option>
+                        <option value="Đồng Nai">Đồng Nai</option>
+                        <option value="Đồng Tháp">Đồng Tháp</option>
+                        <option value="Gia Lai">Gia Lai</option>
+                        <option value="Hà Giang">Hà Giang</option>
+                        <option value="Hà Nam">Hà Nam</option>
+                        <option value="Hà Nội">Hà Nội</option>
+                        <option value="Hà Tĩnh">Hà Tĩnh</option>
+                        <option value="Hải Dương">Hải Dương</option>
+                        <option value="Hải Phòng">Hải Phòng</option>
+                        <option value="Hậu Giang">Hậu Giang</option>
+                        <option value="Hòa Bình">Hòa Bình</option>
+                        <option value="Hưng Yên">Hưng Yên</option>
+                        <option value="Khánh Hòa">Khánh Hòa</option>
+                        <option value="Kiên Giang">Kiên Giang</option>
+                        <option value="Kon Tum">Kon Tum</option>
+                        <option value="Lai Châu">Lai Châu</option>
+                        <option value="Lâm Đồng">Lâm Đồng</option>
+                        <option value="Lạng Sơn">Lạng Sơn</option>
+                        <option value="Lào Cai">Lào Cai</option>
+                        <option value="Long An">Long An</option>
+                        <option value="Nam Định">Nam Định</option>
+                        <option value="Nghệ An">Nghệ An</option>
+                        <option value="Ninh Bình">Ninh Bình</option>
+                        <option value="Ninh Thuận">Ninh Thuận</option>
+                        <option value="Phú Thọ">Phú Thọ</option>
+                        <option value="Phú Yên">Phú Yên</option>
+                        <option value="Quảng Bình">Quảng Bình</option>
+                        <option value="Quảng Nam">Quảng Nam</option>
+                        <option value="Quảng Ngãi">Quảng Ngãi</option>
+                        <option value="Quảng Ninh">Quảng Ninh</option>
+                        <option value="Quảng Trị">Quảng Trị</option>
+                        <option value="Sóc Trăng">Sóc Trăng</option>
+                        <option value="Sơn La">Sơn La</option>
+                        <option value="Tây Ninh">Tây Ninh</option>
+                        <option value="Thái Bình">Thái Bình</option>
+                        <option value="Thái Nguyên">Thái Nguyên</option>
+                        <option value="Thanh Hóa">Thanh Hóa</option>
+                        <option value="Thừa Thiên Huế">Thừa Thiên Huế</option>
+                        <option value="Tiền Giang">Tiền Giang</option>
+                        <option value="Trà Vinh">Trà Vinh</option>
+                        <option value="Tuyên Quang">Tuyên Quang</option>
+                        <option value="Vĩnh Long">Vĩnh Long</option>
+                        <option value="Vĩnh Phúc">Vĩnh Phúc</option>
+                        <option value="Yên Bái">Yên Bái</option>
+                    </select>
+                    <br>
+                    <div >
+                        <input  placeholder="Số điện thoại hoặc mã học sinh" type="email" class="tel" id="tell" name="email" required>
+                        <button class="tel" id="hover1-loc" >Lọc</button>
+                    </div>
+                    <div id="not-robot">
+                        <div id = "chinh-input">
+                            <input  type="checkbox" class="custom-checkbox" name="hobby2" value="music"  />
+                        </div>
+
+                        <span id = "chinh-chu">
+                            <label  for="hobby2">I'm not a robot</label><br>
+                        </span>
+
+                        <img id="vi-tri" src="icon/captcha-mã.png" width="52px;"/>
+                    </div>    
+                    
+                    <div>
+                        <a id="js-dan" href="#" > á á..</a>
+                    </div>
+                </form>
+                <br>
+                <img src="icon/image-10.png" id="image-1"/><br>
+                <img src="icon/ảnh-1.png" id="image-2"/><br>
+                <img src="icon/ảnh-2.png" id="image-3"/><br>
+                <img src="icon/ảnh-4.png" id="image-4"/><br>
+                <img src="icon/ảnh-5.png" id="image-5"/><br>
+                
+
+            </div>
+
+            <div class="right">
+                <p Style="margin-left:15px;">Để tra cứu điểm của học sinh <b id="names"> Nguyễn Tấn Thành</b> xin vui lòng nhập mật khẩu để xác nhận thông tin!</p>
+                <form style="margin-bottom: 10px;">
+                    <label style="margin-left:20px;" for="gender-right">chọn năm học</label>
+                    <select style="margin-left: 106px; width: 250px; height:28px;;" id="gender-right" name="gender-right">
+                        <option value="year">2023-2024</option>
+                    </select>
+                </form> 
+
+                <form id="font-size-right-2" style="margin-bottom: 10px;">
+                    <label style="margin-left:20px;" for="gender-right-2">Chọn đợt điểm</label>
+                    <select  style="margin-left: 102px; width: 248px; height:28px;" id="gender-right-2" name="gender-right-2">
+                        <option value="time">Tất cả</option>
+                    </select> 
+                </form>
+
+                <form>
+                    <label style="margin-left: 20px;" for="password">Mật khẩu </label>
+                    <input
+                      style="margin-left: 130px; width: 240px; height: 23px;"
+                      type="password"
+                      name="password"
+                      required
+                      onfocus="showMessage(true)"
+                      onblur="showMessage(false)"
+                    >
+                    <div id="message" style="display: none; margin-left: 130px; color: red;">mật khẩu thông thường là SDT đăng kí sổ liên lạc điện tử của bạn.</div>
+                </form>
+                  
+                <script>
+                    function showMessage(show) {
+                      const messageDiv = document.getElementById("message");
+                      if (show) {
+                        messageDiv.style.display = "block";
+                      } else {
+                        messageDiv.style.display = "none";
+                      }
+                    }
+                </script>
+                  
+                <button id="button-right-html-2">xác nhận</button>
+               
+                <div id="border-da">
+                    Đổi mật khẩu: nhắn tin gửi 8099 (1000VNĐ/SMS) với nội dung:<b> VNEDU MK </b>[Mật khẩu mới]</p>
+                </div>
+                <p align="center";>Kết quả học tập của<b> Nguyễn Tấn Thành</b> trong học kỳ 1</p><br/>
+
+                <table id="kl" style="margin-left: 15px; background-color: #CCC; margin-top: -20px;margin-right:15px;">
+                    <tr  class="vien"  style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255); color: rgb(87, 87, 87);">
+                        <th width="150" height="5" style="text-align: left; padding-left: 10px;">Kết quả rèn luyện</th>
+                        <td width="150">Tốt</td>
+                    </tr>
+                    <tr class="score-row" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; background-color: #EEEEEE; color: rgb(69, 69, 69);">
+                        <th width="500px" height="5" style="text-align: left; padding-left: 10px;">Kết quả học tập</th>
+                        <td width="150">Giỏi</td>
+                    </tr>
+                </table> 
+                
+                
+
+                <p style="font-family: Helvetica,Arial,sans-serif;font-size: 12px;" align="center" ><b>Bảng điểm các môn học kì 1</b></p>
+                <table class="bang-diem" style=" margin-left:15px;margin-top:-150px;background-color: #CCC;margin-right:15px; " >
+
+                    <tr   align ="center" style="padding:4px;background-color:#1f79ce;" >
+                        <th width="150" height="2">Môn học</th>
+                        <th style="padding:4px;" width="400">Điểm ĐG thường xuyên</th>
+                        <th width="140">Giữa kì </th>
+                        <th width="100">cuối kì</th>
+                        <th width="100">DTB</th>
+                    </tr>
+                    <br/> 
+                    
+                    <tr align="center" style="background-color: #ffffff; color: black; padding:4px;">
+                        <th>Toán</th>
+                        <td class="score-list">9 | 8 | 9 | 9.5</td>
+                        <td>8.5</td>
+                        <td>9</td>
+                        <td>8.8</td>
+                    </tr>
+
+                    <tr align="center" class="score-row" style="background-color: #EEEEEE; color: black;">
+                        <th>Vật lý</th>
+                        <td class="score-list">7 | 8 | 9 | 10</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>9.1</td>
+                    </tr>
+
+                    <tr align="center" style="background-color: rgb(255, 255, 255); color: black;">
+                        <th>Hoá học</th>
+                        <td class="score-list">9 | 6 | 9 | 9 </td>
+                        <td>8.75</td>
+                        <td>9.25</td>
+                        <td>8.7</td>
+                    </tr><br/>
+                    <tr align="center" style="background-color: #EEEEEE; color: black;">
+                        <th>Sinh học</th>
+                        <td class="score-list">9 | 8 | 9 | 10</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>9.6</td>
+                    </tr>
+                    <tr align="center" style="background-color: rgb(255, 255, 255); color: black;">
+                        <th>Tin học</th>
+                        <td class="score-list">9 | 9 | 9 | 10 </td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>9.7</td>
+                    </tr><br/>
+                    <tr align="center" style="background-color: #EEEEEE; color: black;">
+                        <th>Ngư văn</th>
+                        <td class="score-list">9 | 7 | 9 | 7 </td>
+                        <td>9</td>
+                        <td>7.5</td>
+                        <td>8.1</td>
+                    </tr><br/>
+                    <tr align="center" style="background-color: rgb(255, 255, 255); color: black;">
+                        <th>Lịch sử</th>
+                        <td class="score-list">9 | 7 | 9 | 8 </td>
+                        <td>9</td>
+                        <td>9.5</td>
+                        <td>8.8</td>
+                    </tr><br/>
+                    <tr align="center" style="background-color:  #EEEEEE; color: black;">
+                        <th>Ngoại ngữ</th>
+                        <td class="score-list">8 | 7 | 8 | 9 </td>
+                        <td>9</td>
+                        <td>7.75</td>
+                        <td>8.1</td>
+                    </tr><br/>
+                    <tr align="center" style="background-color: rgb(255, 255, 255); color: black;">
+                        <th>Giáo dục thể chất</th>
+                        <td class="score-list">Đ | Đ | </td>
+                        <td>Đ</td>
+                        <td>Đ</td>
+                        <td>Đ</td>
+                    </tr><br/>
+                    <tr align="center" style="background-color: #EEEEEE; color: black;">
+                        <th>giáo dục quốc phòng và an ninh</th>
+                        <td class="score-list">8 | 8  </td>
+                        <td>8.5</td>
+                        <td>9.5</td>
+                        <td>8.9</td>
+                    </tr><br/> <tr align="center" style="background-color: rgb(255, 255, 255); color: black;">
+                        <th>Nội dung giáo dục địa phương</th>
+                        <td class="score-list">Đ | Đ </td>
+                        <td>Đ</td>
+                        <td>Đ</td>
+                        <td>Đ</td>
+                    </tr><br/>
+                    <tr align="center" style="background-color: #EEEEEE; color: black;">
+                        <th>Hoạt động trải nghiệm và hướng nghiệp</th>
+                        <td class="score-list">Đ | Đ  </td>
+                        <td>Đ</td>
+                        <td>Đ</td>
+                        <td>Đ</td>
+                    </tr><br/>
+                        
+                    
+                </table> 
+
+
+
+                <p align="center";>Kết quả học tập của<b> Nguyễn Tấn Thành</b> trong học kỳ 2</p><br/>
+
+                <table id="kl" style="margin-left: 15px; background-color: #CCC; margin-top: -20px;margin-right:15px;">
+                    <tr  class="vien"  style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255); color: rgb(87, 87, 87);">
+                        <th width="150" height="5" style="text-align: left; padding-left: 10px;">Kết quả rèn luyện</th>
+                        <td width="150">Tốt</td>
+                    </tr>
+                    <tr class="score-row" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; background-color: #EEEEEE; color: rgb(69, 69, 69);">
+                        <th width="500px" height="5" style="text-align: left; padding-left: 10px;">Kết quả học tập</th>
+                        <td width="150">Giỏi</td>
+                    </tr>
+                </table> 
+                
+                
+
+
+
+                <p style="font-family: Helvetica,Arial,sans-serif;font-size: 12px;" align="center" ><b>Bảng điểm các môn học kì 2</b></p>
+                <table class="bang-diem" style=" margin-left:15px;margin-top:-150px;background-color: #CCC;margin-right:15px; " >
+
+                    <tr   align ="center" style="padding:4px;background-color:#1f79ce;" >
+                        <th width="150" height="2">Môn học</th>
+                        <th style="padding:4px;" width="400">Điểm ĐG thường xuyên</th>
+                        <th width="140">Giữa kì </th>
+                        <th width="100">cuối kì</th>
+                        <th width="100">DTB</th>
+                    </tr>
+                    <br/> 
+                    
+                    <tr align="center" style="background-color: #ffffff; color: black; padding:4px;">
+                        <th>Toán</th>
+                        <td class="score-list">9 | 8 | 9 | 9.5</td>
+                        <td>8.5</td>
+                        <td>9</td>
+                        <td>8.8</td>
+                    </tr>
+
+                    <tr align="center" class="score-row" style="background-color: #EEEEEE; color: black;">
+                        <th>Vật lý</th>
+                        <td class="score-list">7 | 8 | 9 | 10</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>9.1</td>
+                    </tr>
+
+                    <tr align="center" style="background-color: rgb(255, 255, 255); color: black;">
+                        <th>Hoá học</th>
+                        <td class="score-list">9 | 6 | 9 | 9 </td>
+                        <td>8.75</td>
+                        <td>9.25</td>
+                        <td>8.7</td>
+                    </tr><br/>
+                    <tr align="center" style="background-color: #EEEEEE; color: black;">
+                        <th>Sinh học</th>
+                        <td class="score-list">9 | 8 | 9 | 10</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>9.6</td>
+                    </tr>
+                    <tr align="center" style="background-color: rgb(255, 255, 255); color: black;">
+                        <th>Tin học</th>
+                        <td class="score-list">9 | 9 | 9 | 10 </td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>9.7</td>
+                    </tr><br/>
+                    <tr align="center" style="background-color: #EEEEEE; color: black;">
+                        <th>Ngư văn</th>
+                        <td class="score-list">9 | 7 | 9 | 7 </td>
+                        <td>9</td>
+                        <td>7.5</td>
+                        <td>8.1</td>
+                    </tr><br/>
+                    <tr align="center" style="background-color: rgb(255, 255, 255); color: black;">
+                        <th>Lịch sử</th>
+                        <td class="score-list">9 | 7 | 9 | 8 </td>
+                        <td>9</td>
+                        <td>9.5</td>
+                        <td>8.8</td>
+                    </tr><br/>
+                    <tr align="center" style="background-color:  #EEEEEE; color: black;">
+                        <th>Ngoại ngữ</th>
+                        <td class="score-list">8 | 7 | 8 | 9 </td>
+                        <td>9</td>
+                        <td>7.75</td>
+                        <td>8.1</td>
+                    </tr><br/>
+                    <tr align="center" style="background-color: rgb(255, 255, 255); color: black;">
+                        <th>Giáo dục thể chất</th>
+                        <td class="score-list">Đ | Đ | </td>
+                        <td>Đ</td>
+                        <td>Đ</td>
+                        <td>Đ</td>
+                    </tr><br/>
+                    <tr align="center" style="background-color: #EEEEEE; color: black;">
+                        <th>giáo dục quốc phòng và an ninh</th>
+                        <td class="score-list">8 | 8  </td>
+                        <td>8.5</td>
+                        <td>9.5</td>
+                        <td>8.9</td>
+                    </tr><br/> <tr align="center" style="background-color: rgb(255, 255, 255); color: black;">
+                        <th>Nội dung giáo dục địa phương</th>
+                        <td class="score-list">Đ | Đ </td>
+                        <td>Đ</td>
+                        <td>Đ</td>
+                        <td>Đ</td>
+                    </tr><br/>
+                    <tr align="center" style="background-color: #EEEEEE; color: black;">
+                        <th>Hoạt động trải nghiệm và hướng nghiệp</th>
+                        <td class="score-list">Đ | Đ  </td>
+                        <td>Đ</td>
+                        <td>Đ</td>
+                        <td>Đ</td>
+                    </tr><br/>
+                </table> 
+
+                <p align="center";>Kết quả học tập của<b id ="replace" style="font-size:120%;"> Nguyễn Tấn Thành</b> trong học kỳ cả năm</p><br/>
+                <br/>
+                <table id="kl" style="margin-left: 15px; background-color: #CCC; margin-top: -20px;">
+                    <tr    style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255); color: rgb(87, 87, 87);">
+                        <th width="100" height="5" style="text-align: left; padding-left: 10px;">Danh hiệu </th>
+                        <td width="527">Chưa xét</td>
+                    </tr>
+                    
+                    <tr class="score-row" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; background-color: #EEEEEE; color: rgb(69, 69, 69);">
+                        <th width="100px" height="5" style="text-align: left; padding-left: 10px;">Kết quả rèn luyện</th>
+                        <td width="527">Tốt</td>
+                    </tr>
+                    <tr class="score-row" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; background-color: #ffffff; color: rgb(69, 69, 69);">
+                        <th width="100px" height="5" style="text-align: left; padding-left: 10px;">Kết quả học tập</th>
+                        <td width="527">Giỏi</td>
+                    </tr>
+                    <tr class="score-row" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; background-color: #EEEEEE; color: rgb(69, 69, 69);">
+                        <th  height="5" style="text-align: left; padding-left: 10px;">Kết quả</th>
+                        <td >Lên lớp</td>
+                    </tr>
+                </table> 
+<!--bản điểm môn học kì cả năm-->
+                <p align="center" style=" font-family:12px Helvetica,Arial,sans-serif;font-size:15px;color:#333333";>Bảng điểm các môn học kỳ cả năm</p><br/>
+
+                <table id="kl" style="margin-left: 15px; background-color: #CCC; margin-top: -20px; margin-right:15px;">
+                    <tr style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; background-color: #1f79ce; color: rgb(255, 255, 255);">
+                        <th width="500" height="5" style="text-align: left; padding-left: 10px;">Môn học</th>
+                        <td width="150">TBM</td>
+                    </tr>
+                    <tr    style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255); color: rgb(87, 87, 87);">
+                        <th width="500" height="5" style="text-align: left; padding-left: 10px;">Toán học </th>
+                        <td width="150">8.8</td>
+                    </tr>
+                    <tr class="score-row" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; background-color: #EEEEEE; color: rgb(69, 69, 69);">
+                        <th width="100px" height="5" style="text-align: left; padding-left: 10px;">Vật lý</th>
+                        <td width="100">6</td>
+                    </tr>
+                    <tr class="score-row" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; background-color: #ffffff; color: rgb(69, 69, 69);">
+                        <th width="100px" height="5" style="text-align: left; padding-left: 10px;">Hoá học</th>
+                        <td width="150">8.7</td>
+                    </tr>
+                    <tr class="score-row" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; background-color: #EEEEEE; color: rgb(69, 69, 69);">
+                        <th  height="5" style="text-align: left; padding-left: 10px;">Sinh học</th>
+                        <td >9.6</td>
+                    </tr>
+                    <tr    style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255); color: rgb(87, 87, 87);">
+                        <th width="500" height="5" style="text-align: left; padding-left: 10px;">Tin học </th>
+                        <td width="150">9.7</td>
+                    </tr>
+                    
+                    <tr class="score-row" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; background-color: #EEEEEE; color: rgb(69, 69, 69);">
+                        <th width="100px" height="5" style="text-align: left; padding-left: 10px;">Ngữ văn </th>
+                        <td width="100">8.1</td>
+                    </tr>
+                    <tr class="score-row" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; background-color: #ffffff; color: rgb(69, 69, 69);">
+                        <th width="100px" height="5" style="text-align: left; padding-left: 10px;">Lịch sữ </th>
+                        <td width="150">8.8</td>
+                    </tr>
+                    <tr class="score-row" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; background-color: #EEEEEE; color: rgb(69, 69, 69);">
+                        <th  height="5" style="text-align: left; padding-left: 10px;">Ngoại ngữ</th>
+                        <td >8.1</td>
+                    </tr>
+                    <tr    style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255); color: rgb(87, 87, 87);">
+                        <th width="500" height="5" style="text-align: left; padding-left: 10px;">Giáo dục thể chất </th>
+                        <td width="150">Đ</td>
+                    </tr>
+                    
+                    <tr class="score-row" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; background-color: #EEEEEE; color: rgb(69, 69, 69);">
+                        <th width="100px" height="5" style="text-align: left; padding-left: 10px;">Giáo dục quốc phòng an ninh </th>
+                        <td width="100">8.9</td>
+                    </tr>
+                    <tr class="score-row" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; background-color: #ffffff; color: rgb(69, 69, 69);">
+                        <th width="100px" height="5" style="text-align: left; padding-left: 10px;">Nội dung giáo dục địa phương </th>
+                        <td width="150">Đ</td>
+                    </tr>
+                    <tr class="score-row" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; background-color: #EEEEEE; color: rgb(69, 69, 69);">
+                        <th  height="5" style="text-align: left; padding-left: 10px;">Hoạt động trải nghiệm và hướng nghiệp</th>
+                        <td >Đ</td>
+                    </tr>
+                </table> 
+                
+                <p align="center" style=" font-family:12px Helvetica,Arial,sans-serif;font-size:15px;color:#333333";><b>Điểm danh</b></p><br/>
+                <table id="kl" style="margin-left: 15px; background-color: #CCC; margin-top: -20px;">
+                    <tr style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; background-color: #1f79ce; color: rgb(255, 255, 255);">
+                        <th width="225" height="20" style="text-align: left; padding-left: 10px;">Nghĩ có phép</th>
+                        <td width="225"><b>Nghĩ không phép</b></td>
+                        <td width="160">Bỏ tiết</td>
+                    </tr>
+                    <tr style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; background-color: #EEEEEE;">
+                        <th width="220" height="20" style="text-align: left; padding-left: 10px;">0</th>
+                        <td width="220"><b>0</b></td>
+                        <td width="170">0</td>
+                    </tr>
+                </table>
+                
+            </div>
+        </div>
+        <script src="index.js"></script>
+</body>
+
+
+

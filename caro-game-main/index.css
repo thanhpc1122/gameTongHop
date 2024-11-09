@@ -1,0 +1,20 @@
+body{
+    background-color:rgb(50, 204, 76);
+    color:rgb(220, 255, 24);
+}
+.board {
+    margin: 20px auto;
+    width: 420px;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    cursor: pointer;
+}

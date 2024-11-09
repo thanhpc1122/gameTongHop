@@ -1,0 +1,32 @@
+<!-- pacman.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacman</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Chiều cao toàn bộ màn hình */
+            margin: 0; /* Xóa margin mặc định */
+        }
+    </style>
+</head>
+
+<body style="margin: 0; background-color: black;">
+    <canvas id="canvas" width="600" height="600" style="border: 1px solid black;"></canvas>
+    <div style="display:none;">
+        <img id="animation" src="animations.gif" width="140" height="20">
+        <img id="ghosts" src="ghost.png" width="140" height="20">
+    </div>
+    <script src="ghost.js"></script>
+    <script src="pacman.js"></script>
+    <script src="game.js"></script>
+</body>
+
+</html>
